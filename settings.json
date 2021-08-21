@@ -1,0 +1,76 @@
+//vs-code-setting
+{
+	"workbench.iconTheme": "material-icon-theme",
+	"files.autoSave": "afterDelay",
+	"editor.linkedEditing": true,
+	"explorer.confirmDelete": false,
+	"thunder-client.codeSnippetLanguage": "cs-httpclient",
+	"workbench.editorAssociations": {
+		"*.sqlite3": "default"
+	},
+	"workbench.colorTheme": "GitHub Dark",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.useTabs": true,
+	"editor.tabSize": 2,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"editor.renderIndentGuides": false,
+	"workbench.colorCustomizations": {
+		"editor.lineHighlightBackground": "#1073cf2d",
+		"editor.lineHighlightBorder": "#9fced11f"
+	},
+	"editor.wordWrap": "off",
+	"diffEditor.wordWrap": "off",
+	"files.associations": {
+		"*.erb": "erb",
+		"*.jsx": "javascriptreact"
+	},
+	"git.autofetch": true,
+	"highlight-matching-tag.styles": {
+		"opening": {
+			"left": {
+				"underline": "red"
+			},
+			"right": {
+				"surround": "#155FFA"
+			},
+			"name": {
+				"highlight": "rgba(180, 20, 80, 0.3)"
+			}
+		},
+		"closing": {
+			"full": {
+				"custom": {
+					"dark": {
+						"borderWidth": "0 0 5x 0",
+						"borderColor": "red",
+						"borderStyle": "solid",
+						"borderRadius": "4px",
+						"right": "10px"
+					},
+					"light": {
+						"borderWidth": "0 0 2px 0",
+						"borderColor": "brown",
+						"borderStyle": "solid",
+						"borderRadius": "4px",
+						"right": "10px"
+					}
+				}
+			}
+		}
+	},
+	"colorize.languages": ["javascript","html","php"],
+    "colorize.colorized_colors": [
+        "HEXA",
+        "ARGB",
+        "HSL",
+        "RGB",
+        "BROWSERS_COLORS"
+    ],
+    "material-icon-theme.folders.color": "#ffd200",
+    "material-icon-theme.folders.theme": "specific",
+    "material-icon-theme.languages.associations": {
+        "languageId": "iconName",
+        "json": "json"
+		},
+		"window.zoomLevel": -2,
+}
